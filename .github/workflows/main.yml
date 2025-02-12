@@ -11,10 +11,10 @@ jobs:
     - name: 📂 Sync files
       uses: SamKirkland/FTP-Deploy-Action@v4.3.4
       with:
-        server: ftp-fnikme.alwaysdata.net
-        username: fnikme
+        server: ftp-nathand59.alwaysdata.net
+        username: nathand59_test
         password: ${{ secrets.ftp_password }}
-        server-dir: /www/
+        server-dir: /home/nathand59/
         exclude: |
           **/.git*
           **/.git*/**
