@@ -13,7 +13,7 @@ jobs:
       with:
         server: ftp-nathand59.alwaysdata.net
         username: nathand59_test
-        password: ${{ secrets.ftp_password }}
+        password: ${{ secrets.FTP_PASSWORD }}
         server-dir: /home/nathand59/
         exclude: |
           **/.git*
